@@ -7,7 +7,7 @@ body{
 }
 h1, h2, h3, h4, h5, h6{
     font-family: 'Nunito', sans-serif !important; 
-    font-weight: 700;
+    font-weight: 600;
 }
 /* Start browser scroll bar edit */
 
@@ -66,10 +66,51 @@ input[type="submit"] {
     position: absolute;
     width: 25% !important;
     border-radius: 50%;
-    top: 12px;
+    top: 0px;
     left: 0px;
     right: 0px;
-    margin: 0 auto;
+    margin: 0 auto !important;
+}
+
+
+.market-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+} 
+.market-list li{
+    width: 24%;
+    padding: 10px 0px;
+    border: 1px solid #ffb50050;
+    position: relative;
+    text-align: center;
+}
+.market-list li::before,.market-list li::after{
+    position: absolute;
+    top: 0px;
+    width: 0%;
+    height: 100%;
+    background-color: #ffb500;
+    content: '';
+    transition: all .5s ease-in-out;
+    z-index: -1;
+}
+.market-list li::before{
+    left: 0px;
+}
+.market-list li::after{
+    right: 0px;
+}
+.market-list li:hover:after,.market-list li:hover:before{
+    width: 50%;
+    transition: all .5s ease-in-out;
+}
+.market-list li:hover a{
+    color: #ffffff !important;
+    transition: all .5s ease-in-out;
+}
+.market-list li a{
+    color: #ffB500;
 }
 b{
     font-weight: 700;
