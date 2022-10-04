@@ -81,7 +81,7 @@ input[type="submit"] {
 .market-list li{
     width: 24%;
     padding: 10px 0px;
-    border: 1px solid #ffb50050;
+    border: 1px solid #ffb500;
     position: relative;
     text-align: center;
 }
@@ -110,7 +110,10 @@ input[type="submit"] {
     transition: all .5s ease-in-out;
 }
 .market-list li a{
-    color: #ffB500;
+    color: #000;
+}
+@media (max-width:1080px) {
+    
 }
 b{
     font-weight: 700;
