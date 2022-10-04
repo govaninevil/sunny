@@ -1,0 +1,1101 @@
+@media screen and (max-width:1440px){
+    /* product detail Page start  */
+    
+    body.header-fixed .img_logo {
+        display: none;
+    }
+    
+    .dg-wrapper{
+        
+        width: 598px !important;
+    }
+    
+    
+    section.product_details_section {
+        margin-top: -53px;
+    }
+    .details_heading {
+        left: 2%;
+    }
+    .details_heading h2{
+        padding: 0;
+        margin: 0;
+    }
+    }
+    
+    /* start scroll down set */
+    @media screen and (max-width:1250px){
+    
+    body.header-fixed .img_logo {
+        display: none;
+    }
+        
+    .scroll_down {
+        bottom: 10%;
+    }
+    /* product detail Page start  */
+    
+    .details_heading h2 {
+        font-size: 26px;
+    }
+    }   
+    
+    @media screen and (max-width:1199px){
+    
+    body.header-fixed .img_logo {
+        display: none;
+    }	
+        
+    .custom-menu-primary.clearfix {
+        padding-left: 0;
+    }
+    .custom-menu-primary.clearfix ul li.menu_p a {
+        padding:0 5px;
+    }
+    .scroll_down {
+        bottom: 15%;
+    }
+    .carousel-caption {
+        transform: translate(-45%, -24%);
+    }
+    /* contact */
+    .address_text {
+        width: 83%;
+        margin: 0 auto;
+    }
+    .chair img {
+        width: 63%;
+    }
+    /* product detail Page start  */
+    section.product_details_section {
+        margin-top: -44px;
+    }
+    .slider_sofa {
+        margin-top: -150px;
+    }
+    }
+    
+    @media screen and (max-width:1110px){
+    .scroll_down {
+        bottom: 12%;
+    }
+    
+    
+    }
+    
+    @media screen and (max-width:1070px){
+    .scroll_down {
+        bottom:11%;
+    }
+    
+    
+    }
+    
+    
+    /* End scroll down set  */
+    
+    
+    @media screen and (max-width:991px){
+    
+    body.header-fixed .img_logo {
+        display: none;
+    }
+    .top-header{
+        display: none;
+    }
+    .lefthome{
+        float: none !important;
+    }
+    .carousel-caption {
+        transform: translate(-45%, -28%);
+    }
+    .logo {
+        margin-right: -72px;
+        display: none!important;
+    }
+    .custom-menu-primary.clearfix ul li.menu_p a {
+        letter-spacing: 0px;
+    }
+    body.header-fixed header .custom-menu-primary.clearfix ul li.menu_p a {
+        letter-spacing: 0px;
+    }
+    .scroll_down {
+        display: none;
+    }    
+    section.gallery_section {
+        margin-top: 0;
+    } 
+    section#dg-container {
+        overflow-x: hidden;
+    }
+    .product1:hover .product_hover {
+        transform: translateY(-10.8em);
+    }
+    .product1:before {
+        bottom: 5.7em;
+    }
+    .hover_box {
+        bottom:79px;
+    }
+    .product_hover p {
+        font-size: 11px;
+    }
+    .product_hover h2 {
+        font-size: 20px;
+    }
+    .about-text {
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin-right: 0;
+        padding: 2em 0 3em;
+    }
+    footer .custom-menu-primary.clearfix {
+        padding-right: 29px;
+        padding-left: 0;
+    }
+    .custom-menu-primary.clearfix ul li a {
+        font-size: 13px;
+    }
+    .custom-menu-primary.clearfix {
+        padding-left: 13px;
+    }
+    .custom-menu-primary.clearfix ul li i {
+        margin-left: 6px;
+        font-size: 13px;
+    }
+    
+    /* about us Page start*/
+    .about_mid {
+        width: 90%;
+        padding: 20px 30px 49px;
+    }
+    
+    /*contact us Page start*/
+    .chair{
+        display: none;
+    }
+    .address_text {
+        width: 100%;
+    }
+    .contact_heading {
+        width: 100%;
+    }
+    .form {
+        width: 100%;
+    }
+    .contact_bg {
+        padding-top: 10%;
+    }
+    /* product Page start */
+    .product_div2 {
+        margin-top: 22%;
+        margin-bottom: 22%;
+    }
+    .product_left.product_second {
+        margin-top: 0;
+    }
+    .product_section {
+        background: transparent;
+    }
+    /* product detail Page start  */
+    section.product_details_section {
+        margin-top: -28px;
+    }
+    }
+    
+    
+    @media screen and (max-width: 767px){
+    
+    .center_logo img {
+        float: left !important;
+        margin-top: 4px !important;
+        width: 70%;
+    }
+    
+    .post_cont {
+        background: #fff;
+        padding: 20px;
+        box-shadow: 3px 0px 8px -1px #c5c0c0;
+    width: 100%;
+    
+    }
+    
+    
+        /* Write your Public SASS mobile-p here! */
+    
+    .home_ggt {
+        background: url(../img/homesunnyone.jpg) scroll 61% 67% !important;
+    }
+    
+    .home_ggt1 {
+        background: url(../img/homesunnytow.jpg) scroll 7% 67% !important;
+    }
+        
+    
+    .h2-heading h2{
+        font-size: 22px;
+    }
+    
+    .furniture_details h2{
+        margin-top: 14px;
+    }
+    
+    .btn{
+        padding: 6px 4px !important;
+        margin-top: 4px;
+    }
+    
+    .why-link li{
+        width: 100%;
+    }
+    
+    .why-link li p{
+        text-align:center;
+    }
+    
+    
+    .pdf li{
+        width: 100%;
+        margin: 6px 0px;
+    }
+    
+    .pdf li p{
+        text-align:center;
+    }
+    
+    .about-text p{
+        padding: 16px;
+    }
+    
+    .testimg {
+        position: absolute;
+        width: 16% !important;
+        border-radius: 50%;
+        margin: -68px 118px;
+    }
+    
+    .mopho {
+        display: none;
+    }
+    
+    
+    .right-top{
+        display:none;
+    }
+    
+    .left-itam ul{
+        padding:0px;
+        margin:0px;
+    }
+    
+    body.header-fixed .img_logo {
+        display: block;
+    }	
+    
+    
+    
+    .bin-navigation ul > li.level-0 .sub-menu{
+        width: auto !important;
+    }
+    
+     
+    
+    
+    .product-gall{
+        width:100%;
+    }
+    
+    
+    
+    .get-toptext{
+        display:none;
+    }
+    
+    .left-itam ul li a{
+        
+        font-size: 12px;
+    }
+    
+    .logo-left-side{
+        width: 60%;
+    float: left;
+    padding: 9px;
+    display:none;
+    }
+    
+    .bingoHeaderMiddle{
+        width: 40%;
+    float: left;
+    margin: 25px 0px 0px;
+    display:none;
+    }
+    
+    .header-container {
+        top: 4px;
+        display:none;
+    }
+    .logo {
+        text-align: center;
+        margin-right: 0;
+    }
+    .logo img {
+        width:68px;
+        margin-right: -11px;
+    }
+    .custom-menu-primary.clearfix {
+        padding-left: 36px;
+    }
+    .carousel-caption {
+        top:48%;
+    }
+    .carousel-caption p {
+        font-size: 24px;
+    }
+    .carousel-caption h2 {
+        line-height: 43px;
+        font-size: 50px;
+    }
+    section.gallery_section {
+        margin-top: 0;
+        padding-bottom: 29px;
+    }    
+    section.product_area {
+        padding: 2em 0 2em;
+    } 
+    .product1 {
+        margin-top: -27px;
+        width: 100%;
+        margin: 0 auto;
+    } 
+    .product1:hover .product_hover {
+        transform: translateY(-15.8em);
+    }
+    .product_hover p {
+        font-size: 12px;
+    }
+    .product_hover h2 {
+        font-size: 24px;
+    }
+    .about-text {
+        width: 80%;
+        float: none;
+        text-align: center;
+        margin-right: 0;
+        padding: 1em 0 3em;
+        margin: 0 auto;
+    }
+    footer {
+        padding: 10px 0;
+    }
+    section.footer_nav {
+        margin-top: 24px;
+        text-align: center;
+        margin-left: -19px;
+    }
+    footer .custom-menu-primary{
+        display: inline-block !important;
+        float: none !important;
+    }
+    footer .custom-menu-primary ul {
+        float: none !important;
+    }
+    footer .custom-menu-primary ul li {
+        display: inline-block !important;
+    }
+    footer .custom-menu-primary.clearfix {
+        margin-top: 0;
+        padding-left: 0;
+    }
+    footer .custom-menu-primary.clearfix {
+        padding-right: 0px;
+        text-align: center !important;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    footer .custom-menu-primary ul li a {
+        display: inline;
+    } 
+    li.vidaan_logo a {
+        margin-left: -24px;
+    }
+    .footer_nav ul li a img {
+        width: 43%;
+    }  
+    .custom-menu-primary.clearfix ul li i {
+        font-size: 21px;
+    }
+    /* about us Page start */
+    .about_mid_logo img {
+        width: 37%;
+        margin: 1px 0 42px;
+    }  
+    /*contact us Page start */
+    .contact_area {
+        margin-top:14%;
+    }
+    .address_heading {
+        width: 100%;
+    }  
+    .address_text {
+        width: 100%;
+        text-align: center;
+    } 
+    .address_text p {
+        margin-top: 13px;
+    }
+    .second_area{
+         margin-top:10%;
+    }
+    .form {
+        width: 81%;
+        margin-bottom: 25%;
+    }
+    .contact_bg {
+        padding-top:90px;
+        padding-bottom: 50px;
+    }
+    /* product Page start */
+    .heading_product {
+        margin-top: -11%;
+    }
+    .heading_product p span, .details_head_tp p span{
+        font-size: 20px;
+    }
+    .heading_product p, .details_head_tp p{
+        font-size: 50px; 
+        line-height: 38px;
+    }
+    .product_left, .product_right {
+        margin-left: 0;
+    }
+    .product_left .box2, .product_right .box2 {
+        width: 72%;
+    }
+    .product_left .box3, .product_right .box3  {
+        width: 48%;
+        margin-top: -25%;
+    }
+    .product_right {
+         margin-right: 0;
+    }
+    .box-shadow:after {
+        width: 59%;
+        right: 5%;
+    }
+    .product_right .box-shadow:after {
+        width: 59%;
+        left: 2%;
+    }
+    /* product detail Page start  */
+    .product-_details{
+        box-shadow: 0px 0px 68px hsla(0, 1%, 52%, 0.3);
+        transform: scale(1.01); 
+        margin-bottom: 12%;
+        width:60%;
+    }
+    .product-_details:hover {
+        transform: translateY(0px);
+    }
+    .details_head_tp {
+        margin-top: -17%;
+        margin-bottom: 11%;
+    }
+    .slider_sofa {
+        width: 70%;
+        margin: 0 auto;
+        margin-top: -100px;
+    }
+    .slider_sofa h2 {
+        font-size: 31px;
+    }
+    /*popup */
+    .modal-dialog {
+        width: 75%;
+        margin-top:13% !important;
+        margin: 0 auto;
+    }
+    }
+    
+    @media screen and (max-width: 575px){
+    .carousel-caption {
+        transform: translate(-45%, -41%);
+    }
+    
+    
+    .post_cont {
+        background: #fff;
+        padding: 20px;
+        box-shadow: 3px 0px 8px -1px #c5c0c0;
+    width: 100% !important;
+    
+    }
+    
+    
+        
+        /* Write your Public SASS mobile-p here! */
+    
+    .home_ggt {
+        background: url(../img/homesunnyone.jpg) scroll 61% 67% !important;
+    }
+    
+    .home_ggt1 {
+        background: url(../img/homesunnytow.jpg) scroll 7% 67% !important;
+    }
+    
+    .h2-heading h2{
+        font-size: 22px;
+    }
+    
+    .furniture_details h2{
+        margin-top: 14px;
+    }
+    
+    .btn{
+        padding: 6px 4px !important;
+        margin-top: 4px;
+    }
+    
+    .why-link li{
+        width: 100%;
+    }
+    
+    .why-link li p{
+        text-align:center;
+    }
+    
+    .pdf li{
+        width: 100%;
+        margin: 6px 0px;
+    }
+    
+    .pdf li p{
+        text-align:center;
+    }
+    
+    
+    .get-toptext{
+        display:none;
+    }
+    
+    .testimg {
+        position: absolute;
+        width: 16% !important;
+        border-radius: 50%;
+        margin: -68px 118px;
+    }
+    
+    .mopho {
+        display: none;
+    }
+    
+    .top-header ul li {
+        padding: 0px 6px 0px 0px;
+    }
+    
+    .left-itam ul {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .left-itam {
+        padding: 0px;
+        width:100%;
+    }
+    
+    .about-text p{
+        padding: 16px;
+    }
+    
+    .header-container {
+        top: 4px;
+        display:none;
+    }
+    
+    .carousel-caption h2 {
+        line-height: 34px;
+        font-size: 40px;
+    }
+    .product1:hover .product_hover {
+        transform: translateY(-12.8em);
+    }
+    /* product detail Page start  */
+    section.product_details_section {
+        margin-top: -18px;
+    }
+    .slider_sofa {
+        margin-top: -58px;
+    }
+    
+    body.header-fixed .img_logo {
+        display: block;
+    }	
+    
+    
+    }
+    
+    @media screen and (max-width: 480px){
+    
+    .bin-navigation ul > li.level-0.mega-menu .sub-menu {
+        padding: 19px 0px !important;
+    }
+    
+    
+    .post_cont {
+        background: #fff;
+        padding: 20px;
+        box-shadow: 3px 0px 8px -1px #c5c0c0;
+    width: 100% !important;
+    
+    }
+    
+    
+        
+        /* Write your Public SASS mobile-p here! */
+    
+    .home_ggt {
+        background: url(../img/homesunnyone.jpg) scroll 61% 67% !important;
+    }
+    
+    .home_ggt1 {
+        background: url(../img/homesunnytow.jpg) scroll 7% 67% !important;
+    }
+    
+    .bin-navigation{
+        display: inline-table;
+    }
+    
+    .h2-heading h2{
+        font-size: 22px;
+    }
+    
+    .furniture_details h2{
+        margin-top: 14px;
+    }
+    
+    .btn{
+        padding: 6px 4px !important;
+        margin-top: 4px;
+    }
+    
+    .why-link li{
+        width: 100%;
+    }
+    
+    .why-link li p{
+        text-align:center;
+    }
+    
+    .pdf li{
+        width: 100%;
+        margin: 6px 0px;
+    }
+    
+    .pdf li p{
+        text-align:center;
+    }
+    
+    .testimg {
+        position: absolute;
+        width: 16% !important;
+        border-radius: 50%;
+        margin: -68px 118px;
+    }
+    
+    .get-toptext{
+        display:none;
+    }
+    
+    .mopho {
+        display: none;
+    }
+    
+    .top-header ul li {
+        padding: 0px 6px 0px 0px;
+    }
+    
+    
+    .left-itam ul {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .left-itam {
+        padding: 0px;
+        width: 100%;
+    }
+    
+    .about-text p{
+        padding: 16px;
+    }
+    
+    
+    .header-container {
+        top: 4px;
+        display:none;
+    }
+    
+    
+    body.header-fixed .img_logo {
+        display: block;
+    }	
+    
+    
+    .bin-navigation span.grower{
+        top: 0px !important;
+        right: 8px !important;
+    }
+    
+    .logo img {
+        margin-right: -11px;
+    }
+    .carousel-caption p {
+        font-size: 10px;
+    }
+    .carousel-caption .horizontal {
+        width: 51px;
+    }
+    .carousel-caption h2 {
+        line-height: 25px;
+        font-size: 27px;
+    }
+    section#dg-container {
+        margin: 1em 0 0 !important;
+    }
+    .gallery_heading.h_second {
+        margin-top: -13px;
+    }
+    .gallery_heading h2 {
+        font-size: 20px;
+    }
+    .gallery_heading p {
+        line-height: 13px;
+        font-size: 20px;
+    }
+    .gallery_heading p:last-child {
+        font-size: 21px;
+    }
+    .product_gallery {
+        margin-top: 15px;
+        padding: 0 8%;
+    }
+    .product_heading h2 {
+        font-size: 20px;
+    }
+    .product_hover {
+        padding: 0 0px;
+    }
+    .product_hover h2 {
+        font-size: 24px;
+    }
+    .product_hover p {
+        font-size: 12px;
+    }
+    .product1:hover .product_hover {
+        transform: translateY(-11.5em);
+    } 
+    .about-text h2 {
+        font-size: 20px;
+    }
+    .about-text {
+        width: 90%;
+    }
+    /* product Page start */
+    .heading_product {
+        margin-top: -13%;
+    }
+    .heading_product p, .details_head_tp p {
+        font-size: 38px;
+        line-height: 29px;
+    }
+    .product_left .box3, .product_right .box3  {
+        width: 62%;
+        margin-top: -25%;
+    }
+    /* product detail Page start  */
+    .product-_details{
+        width: 80%;
+    }
+    /*popup */
+    .modal-dialog {
+        width:90%;
+    }
+    
+    /* furniture */
+    section.furniture_section .col-xs-6.col-md-4 {
+        width: 100%;
+    }
+    .furniture_details {
+        margin-bottom: 7%;
+    }
+    .furniture_img {
+        height: auto !important;
+    }
+    
+    
+    }
+    
+    @media screen and (max-width:420px){
+    /* about us */
+    .about_mid_logo img {
+        width: 50%;
+    }
+    
+    .post_cont {
+        background: #fff;
+        padding: 20px;
+        box-shadow: 3px 0px 8px -1px #c5c0c0;
+        width: 100% !important;
+    
+    }
+    
+        
+        /* Write your Public SASS mobile-p here! */
+    
+    .home_ggt {
+        background: url(../img/homesunnyone.jpg) scroll 61% 67% !important;
+    }
+    
+    .home_ggt1 {
+        background: url(../img/homesunnytow.jpg) scroll 7% 67% !important;
+    }
+    
+    .h2-heading h2{
+        font-size: 22px;
+    }
+    
+    
+    body.header-fixed .img_logo {
+        display: block;
+    }
+    
+    .furniture_details h2{
+        margin-top: 14px;
+    }
+    
+    .btn{
+        padding: 6px 4px !important;
+        margin-top: 4px;
+    }
+    
+    .why-link li{
+        width: 100%;
+    }
+    
+    .why-link li p{
+        text-align:center;
+    }
+    
+    .pdf li{
+        width: 100%;
+        margin: 6px 0px;
+    }
+    
+    .pdf li p{
+        text-align:center;
+    }
+    
+    
+    .testimg {
+        position: absolute;
+        width: 16% !important;
+        border-radius: 50%;
+        margin: -68px 118px;
+    }
+    
+    .get-toptext{
+        display:none;
+    }
+    
+    .mopho {
+        display: none;
+    }
+    
+    .left-itam {
+        padding: 0px;
+        width:100%;
+    }
+    
+    .top-header ul li {
+        padding: 0px 6px 0px 0px;
+    }
+    
+    .left-itam ul {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .about-text p{
+        padding: 16px;
+    }
+    
+    
+    .header-container {
+        top: 4px;
+        display:none;
+    }	
+    
+    
+    .bin-navigation{
+        display: inline-table;
+    }
+    
+    
+    .product1:hover .product_hover {
+        transform: translateY(-10.5em);
+    }
+    /* product */
+    .product_left .box3, .product_right .box3  {
+        width:80%;
+        margin-top: -25%;
+    }
+    .slider_sofa h2 {
+        font-size: 19px;
+    }
+    
+    .carousel-inner{
+        
+        height:auto;
+        background: #333;
+    }
+    
+    
+    .bin-navigation ul > li.level-0 .level-1.menu-item-has-children.std-menu .sub-menu a {
+        padding-left: 5px !important;
+    }
+    
+    
+    .testimonial-carousel .owl-next {
+        right: 30px !important;
+    }
+    
+    
+    .testimonials-wrapper{
+        width: 88%;
+        max-width: 300px !important;
+    }
+    
+    
+    .testimonial-carousel .owl-prev {
+        left: 20px;
+    }
+    
+    .owl-next{
+        right: 2% !important;
+    }
+    
+    .owl-prev{
+        left: 2%;
+    }
+    
+    
+    
+    .carousel-caption {
+    
+        top: 43%;
+        left: auto;
+    
+    }
+    
+    .carousel-caption {
+    
+        transform: translate(6%, -152%);
+    
+    }
+    
+    
+    .carousel-caption p{
+    
+    margin-left: 0px;
+        
+    }
+    
+    
+    .carousel-caption h1{
+        
+        font-size: 17px;
+        
+    }
+    
+    }
+    
+    @media screen and (max-width:388px){
+        
+    body.header-fixed .img_logo {
+        display: block;
+    }
+    
+    .post_cont {
+        background: #fff;
+        padding: 20px;
+        box-shadow: 3px 0px 8px -1px #c5c0c0;
+        width: 100% !important;
+    
+    }
+    
+        
+        /* Write your Public SASS mobile-p here! */
+    
+    .home_ggt {
+        background: url(../img/homesunnyone.jpg) scroll 61% 67% !important;
+    }
+    
+    .home_ggt1 {
+        background: url(../img/homesunnytow.jpg) scroll 7% 67% !important;
+    }
+    
+    
+    .header-container {
+        top: 4px;
+        display:none;
+    }	
+        
+    
+    .dg-wrapper {
+        width: 321px !important;
+    }
+    .dg-wrapper a img{
+        width: 320px !important;
+    }
+    .gallery_heading.h_second {
+       margin-top: 27px !important;
+    }
+    span.dg-prev {
+        top: 22% !important;
+    }
+    span.dg-next {
+        top: 22% !important;
+    }
+    /* product  Page start */
+    .box3 h2 {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    /* product detail Page start  */
+    .details_heading h2 {
+        font-size: 26px;
+        letter-spacing: 2px; 
+    }
+    .product-_details h2 {
+        font-size: 21px;
+    }
+    }
+    
+    @media screen and (max-width:350px){
+    section.product_details_section {
+        margin-top: -15px;
+    }
+    
+        /* Write your Public SASS mobile-p here! */
+    
+    .home_ggt {
+        background: url(../img/homesunnyone.jpg) scroll 61% 67% !important;
+    }
+    
+    .home_ggt1 {
+        background: url(../img/homesunnytow.jpg) scroll 7% 67% !important;
+    }
+    
+        
+    }
