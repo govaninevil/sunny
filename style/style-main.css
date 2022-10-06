@@ -112,8 +112,19 @@ input[type="submit"] {
 .market-list li a{
     color: #000;
 }
-@media (max-width:1080px) {
-    
+
+
+.wp-spaios-slider.nivo-slider img{
+    margin: 0px !important;
+}
+/* div#wp-spaios-nivo-slider-2 a img,div#wp-spaios-nivo-slider-3 a img,div#wp-spaios-nivo-slider-4 a img,div#wp-spaios-nivo-slider-6 a img {
+    width: 100% !important;
+} */
+.wp-spaios-slider.nivo-slider img{
+    width: 100% !important;
+}
+#wp-spaios-nivo-slider-6 .wp-spaios-slider.nivo-slider {
+    height: 50% !important;
 }
 b{
     font-weight: 700;
@@ -639,17 +650,17 @@ section.product_area {
 
 
 .footer{
-background: url(../image/footer.jpg);
-padding: 186px 0px 0px;
-z-index: 999999;
-margin: -70px 0px;
 background-position-x: center;
 }
-
+.footer img{
+    width: 100%;
+}
 
 .product_heading{
     text-align: center;
-    font-family: 'Nunito', sans-serif !important;}
+    font-family: 'Nunito', sans-serif !important;
+    margin-bottom: 20px;
+}
 .product_gallery {
     margin-top: 35px;
         padding: 0 6%;
@@ -823,7 +834,7 @@ background-position-x: center;
 }
 .home_about .container {
     max-width: 1920px !important;
-    margin: 0px;
+    margin: 0px auto;
     width: 100% !important;
 }
 .home_about .row{
@@ -1035,22 +1046,16 @@ body.header-fixed .header-container ul>li.level-0>a{
     position: relative;
     z-index: 2;
 }
-.about_mid_logo img {
-    width: 22%;
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 50%;
-    z-index: -1;
-    opacity: .5;
-    transform: translateY(-50%);
-}
 .about_mid_logo p {
     text-align: justify;
     line-height: 23px;
     font-size: 15px;
     color: #999;
     font-family: 'Nunito', sans-serif !important;
+    margin-bottom: 20px;
+}
+.btn-default{
+    width: 100%;
 }
 .about-us a{
     color:  #000000 !important;
@@ -1717,10 +1722,37 @@ section.furniture_section {
 .sofa_carousel {
     background: #fff;
     margin: 0px 0px 0%;
-    padding-top: 4%;
-	padding-bottom:4%;
+    padding-top: 3%;
+	padding-bottom:2%;
 }
-
+.parallax.parallax-statistic .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media (max-width:1280px) {
+    .parallax.parallax-statistic .row .col-md-3.col-sm-6{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .statistic__item{
+        height:280px;
+    }
+    .icon{
+        width: 18% !important;
+    }
+    .statistic__item::before{
+        height: 38% !important;
+    }
+    .statistic__item:hover:before{
+        height: 100% !important;
+    }
+}
+@media (max-width:992px){
+    .indiamart{
+        width: 25%;
+        margin: 10px auto;
+    }
+}
 .statistic__item{
     height: 350px;
     background-color: #fff;
@@ -1797,10 +1829,12 @@ section.furniture_section {
 
 .parallax-statistic {
   
-    padding: 65px 0;
+    padding: 65px 110px;
     padding-top: 35px;
 }
-
+ {
+    
+}
 
 .pan-india{
 	background:#333;

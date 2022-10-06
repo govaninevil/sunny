@@ -492,7 +492,8 @@ ul{
 	font-size: 14px;
 }
 .partner_img1.testimu{
-	height: 280px;
+	height: 154px;
+	overflow: overlay;
 }
 .plumb_slider_img_section  .owl-theme .owl-nav .owl-prev{
     font-size: 29px;
@@ -651,7 +652,14 @@ ul{
 .hidden-xs{ display: block !important;}
 
 }
-
+@media (max-width: 1024px){
+	.home_about.jarallax.home_ggt .row{
+		flex-wrap: wrap;
+	}	
+	.home_about.jarallax.home_ggt .row .about-text{
+		width: 100% !important;
+	}
+}
 /*-- Slider Css End --*/
 /*-- plumb title section start --*/
 .plumb_title_wrapper{
@@ -4713,7 +4721,7 @@ width: 100%;
 	z-index:1;
 }
 .product2.custom .wp-spaios-slider.nivo-slider{
-    height: 600px !important;
+    height: 100% !important;
 }
 .product2.custom .wp-spaios-slider.nivo-slider img{
 	width: 100% !important;
@@ -5572,17 +5580,8 @@ width: 100%;
 .about_banner .slider{
 	position: relative;
 }
-.about_heading{
-	position: absolute !important;
-	top: 50%;
-	transform: translateY(-50%);
-	left: 0px;
-	right: 0px;
-	margin: 0 auto;
-	color: #ffffff;
-}
 .about_heading h1{
-	color: #ffffff;
+	color: #000.partner_img1.testimu;
 }
 .sofa_carousel .partner_img1{
 	height: auto;
