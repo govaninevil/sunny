@@ -1,0 +1,263 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:	Plumber
+Version:	1.0.0
+Author: 
+Website: 
+Purchase: 
+-------------------------------------------------------------------
+[Table of contents]
+ 
+1. Body
+2. Custom css / a
+3. Preloader/ #preloader
+4. Header Css Start /
+*/
+
+/*--------- Body Strat -------*/
+.cd-dropdown-wrapper{
+	margin-top: 17px;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Raleway';
+	line-height: 1.1;
+	font-weight:400;
+	color: #222222;
+	margin:0;
+}
+
+
+ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+
+@media(max-width: 767px){
+
+/*-- navigation Css Start --*/
+.plumb_nav_wrapper{
+	float:left;
+	width:100%;
+    position: relative;
+}
+.plumb_nav_header_wrapper{
+    float: left;
+    width: 100%;
+    background-color:#ffffff;
+    z-index: 1000;
+    position: relative;
+	text-align: center;
+	height:66px;
+}
+.plumb_main_menu_wrapper{
+	display: inline-block;
+}
+.plumb_main_menu{
+	float:left;
+	width:100%;
+}
+.plumb_main_menu ul{
+    float: right;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+}
+.plumb_main_menu ul li{
+    list-style: none;
+    float: left;
+    width: auto;
+	padding: 10px 14px;
+}
+.plumb_main_menu ul li a{
+    float: left;
+    padding: 9px 15px;
+	border:1px solid transparent;
+	border-radius:50px;
+    margin: 0px;
+    color: #111111;
+    font-size: 18px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.plumb_main_menu ul li a:hover, .plumb_main_menu ul li a.active{
+	color: #e03843;
+	border-radius:50px;
+	border:1px solid #e03843;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.plumb_main_menu li:nth-child(5){
+	background:#ffffff;
+	border-radius:100%;
+	/*border:20px solid rgba(255, 255, 255, 0.2);*/
+	position: relative;
+    top: -22px;
+}
+.plumb_main_menu li:nth-child(5) a{
+	padding: 15px 14px 20px 14px;
+	border:0;
+}
+.plumb_main_menu li:nth-child(5) a:hover{
+	border:0;
+}
+.dropdown-content li:nth-child(5) ul li a:{
+	border-bottom: 1px solid #e03843;;
+}
+.menu_fixed{
+	position: fixed;
+	z-index:1000;
+	padding:0px 0px;
+    top: 0;
+	height: 70px;
+	text-align:right;
+	margin-top:0;
+	background-color:rgba(255, 255, 255, 0.9);
+	-o-box-shadow:0px 0px 25px -10px;
+	-ms-box-shadow:0px 0px 25px -10px;
+	-moz-box-shadow:0px 0px 25px -10px;
+	-webkit-box-shadow:0px 0px 25px -10px;
+	box-shadow:0px 0px 25px -10px;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.9s;
+	-ms-transition: all 0.9s;
+	-moz-transition: all 0.9s;
+	transition: all 0.9s;
+}
+.menu_fixed li:nth-child(5) a{
+	border:none;
+	border-radius:none;
+}
+.center_logo img{
+    float: right;
+    margin-top: 0px;
+}
+.plumb_about_content_wrapper{
+	padding-top:50px;
+}
+@media (min-width: 1260px){
+.menu_fixed li:nth-child(5){
+	position:absolute;
+	left:0;
+	background: none;
+    border-radius: none;
+	box-shadow:none;
+    border:none;
+	top:-15px;
+}
+}
+@media (max-width: 991px){
+.plumb_nav_wrapper{
+	display:none;
+}
+.menu_fixed{
+	text-align:left;
+	width:100%;
+}
+.plumb_left_side_warpper, .plumb_right_side_main_warpper{
+	text-align:center;
+}
+.plumb_top_contect, .plumb_right_side_warpper{
+	display:inline-block;
+}
+/*.menu_fixed{
+	height:100px;
+}*/
+}
+@media (min-width: 991px) and (max-width: 1260px){
+.plumb_main_menu li:nth-child(5){
+	background:none; 
+	border:none;
+	padding-top: 40px;
+}
+.plumb_main_menu ul li{
+	padding: 23px 3px;
+}
+.menu_fixed{
+	text-align:center;
+}
+}
+@media (min-width: 991px){
+.dropdown {
+    position: relative;
+    -webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.dropdown-content{
+	position:absolute;
+	
+}
+.dropdown:hover .dropdown-content{
+	top:100%;
+	opacity:1;
+	width:240px;
+	background:#275697;
+	visibility:visible;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.dropdown .dropdown-content{
+	position:absolute;
+	top:150%;
+	left:0;
+	width:190px;
+	border-top:3px solid #e03843;
+	border-radius:3px;
+	background-color:#ffffff;
+	opacity:0;
+	visibility:hidden;
+	z-index:1;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.dropdown .dropdown-content a{
+	padding-top:8px!important;
+	padding-bottom:8px!important;
+	padding-left:10px !important;
+	padding-right: 15px;
+	color:#ffffff;
+	width:100%;
+	font-size:13px;
+	border-radius:0 !important;
+	border-bottom: 1px solid #e03843;
+	text-align:left;
+}
+.dropdown .dropdown-content a:hover, .dropdown .dropdown-content a:focus{
+	background:#e03843;
+	color:#ffffff;
+	width:100%;
+}
+.caret{
+	color:#000000;
+}
+}
+/*-- navigation Css End --*/
+
+@media (max-width: 495px){
+	.plumb_booking_content p:last-child{float:left;}
+}
+@media (max-width: 479px){
+.plumb_title_wrapper .lv_btn a {
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+}
